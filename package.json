@@ -29,5 +29,8 @@
     "passport-local-mongoose": "^6.1.0",
     "sinon": "^9.2.4",
     "twilio": "^3.56.0"
+  },
+  "devDependencies": {
+    "ws": "3.3.2"
   }
 }

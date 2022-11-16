@@ -42,7 +42,7 @@ app.use(methodOverride("_method")); //to support HTTP Verbs other than GET,POST
 app.use("/jobs", jobRoutes);
 app.use("/user", userRoutes);
 
-const port = process.env.PORT || 3030;
+const port = process.env.PORT || 3040;
 app.listen(port, function () {
   console.log(`[OK] server started on port ${port}`);
 });
